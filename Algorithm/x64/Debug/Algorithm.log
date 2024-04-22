@@ -1,0 +1,22 @@
+﻿  command.cpp
+C:\Users\79163\source\repos\Algorithm\Algorithm\command.cpp(97,26): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\79163\source\repos\Algorithm\Algorithm\command.cpp(103,26): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\79163\source\repos\Algorithm\Algorithm\command.cpp(108,25): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\79163\source\repos\Algorithm\Algorithm\command.cpp(114,25): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\79163\source\repos\Algorithm\Algorithm\command.cpp(121,25): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\79163\source\repos\Algorithm\Algorithm\command.cpp(128,25): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\79163\source\repos\Algorithm\Algorithm\command.cpp(152,31): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\numeric(25,105): warning C4267: =: преобразование из "size_t" в "_Ty"; возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\79163\source\repos\Algorithm\Algorithm\command.cpp(151,2): message : выполняется компиляция ссылки на экземпляр шаблон функции "_Ty std::accumulate<std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Polygon>>>,int,maxSeq::<lambda_1>>(const _InIt,const _InIt,_Ty,_Fn)"
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<Polygon>>>,
+              _Fn=maxSeq::<lambda_1>
+          ]
+C:\Users\79163\source\repos\Algorithm\Algorithm\command.cpp(150): warning C4715: `maxSeq'::`2'::<lambda_1>::operator(): значение возвращается не при всех путях выполнения
+  Algorithm.vcxproj -> C:\Users\79163\source\repos\Algorithm\x64\Debug\Algorithm.exe
